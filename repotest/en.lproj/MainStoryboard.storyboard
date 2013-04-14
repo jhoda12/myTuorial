@@ -21,10 +21,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YZ6-b7-lm9"/>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="b0r-TH-Y2L"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="b0r-TH-Y2L" firstAttribute="bottom" secondItem="N78-g7-NXz" secondAttribute="bottom" type="default" id="BeP-Yq-4gp"/>
+                            <constraint firstItem="YZ6-b7-lm9" firstAttribute="top" secondItem="OlN-zy-Ywf" secondAttribute="top" constant="26" id="SS3-rX-sQg"/>
                             <constraint firstItem="N78-g7-NXz" firstAttribute="leading" secondItem="OlN-zy-Ywf" secondAttribute="leading" constant="13" id="URI-0N-rQl"/>
+                            <constraint firstItem="b0r-TH-Y2L" firstAttribute="leading" secondItem="OlN-zy-Ywf" secondAttribute="leading" constant="22" id="eQ3-Fz-qYd"/>
+                            <constraint firstItem="b0r-TH-Y2L" firstAttribute="centerX" secondItem="YZ6-b7-lm9" secondAttribute="centerX" type="default" id="kGI-t5-NEt"/>
                             <constraint firstItem="N78-g7-NXz" firstAttribute="top" secondItem="OlN-zy-Ywf" secondAttribute="top" constant="36" id="mnb-H7-zNf"/>
                         </constraints>
                     </view>
@@ -32,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o0k-HX-Vyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="414" y="51"/>
+            <point key="canvasLocation" x="476" y="47"/>
         </scene>
         <!--View Controller - jhoda12@hotmail.com-->
         <scene sceneID="jcz-ym-7aV">
@@ -52,18 +58,28 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8K8-ep-ERI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="lQf-DR-MO1"/>
+                                </constraints>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b7z-Pl-1My"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cRX-U2-l6y" firstAttribute="leading" secondItem="xnq-Bx-co2" secondAttribute="leading" constant="93" id="7XS-uo-934"/>
+                            <constraint firstAttribute="bottom" secondItem="8K8-ep-ERI" secondAttribute="bottom" constant="160" id="Bpr-wG-dzs"/>
                             <constraint firstItem="cRX-U2-l6y" firstAttribute="top" secondItem="xnq-Bx-co2" secondAttribute="top" constant="145" id="RZE-8c-6Ov"/>
+                            <constraint firstAttribute="bottom" secondItem="b7z-Pl-1My" secondAttribute="bottom" constant="91" id="bm5-Gx-Wb3"/>
+                            <constraint firstAttribute="trailing" secondItem="b7z-Pl-1My" secondAttribute="trailing" constant="72" id="czI-ww-kJW"/>
+                            <constraint firstItem="8K8-ep-ERI" firstAttribute="leading" secondItem="xnq-Bx-co2" secondAttribute="leading" constant="45" id="las-qk-Uoh"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="jhoda12@hotmail.com" id="d9K-y4-Om9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="24d-Be-04L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="398" y="-566"/>
+            <point key="canvasLocation" x="476" y="-560"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="hOq-xM-yiE">
@@ -82,7 +98,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lsy-kb-RFU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-90" y="-263"/>
+            <point key="canvasLocation" x="-181" y="-285"/>
         </scene>
     </scenes>
     <classes>
