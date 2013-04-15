@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--View Controller - davargas85_12@yahoo.com-->
+        <!--View 2controller - davargas85_12@yahoo.com-->
         <scene sceneID="gmb-pK-sLt">
             <objects>
-                <viewController id="FNW-nO-FCI" sceneMemberID="viewController">
+                <viewController id="FNW-nO-FCI" customClass="view2controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OlN-zy-Ywf">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -21,7 +21,11 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YZ6-b7-lm9"/>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YZ6-b7-lm9">
+                                <connections>
+                                    <action selector="controlSwitch:" destination="FNW-nO-FCI" eventType="touchUpInside" id="cN1-GH-2NM"/>
+                                </connections>
+                            </switch>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="b0r-TH-Y2L"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -35,6 +39,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="davargas85_12@yahoo.com" id="ODD-nT-Nbh"/>
+                    <connections>
+                        <outlet property="mylabel" destination="N78-g7-NXz" id="KZg-eL-a88"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o0k-HX-Vyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -101,11 +108,6 @@
             <point key="canvasLocation" x="-181" y="-285"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

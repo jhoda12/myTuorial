@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F3218E3171BB5F30004DF9E /* view2controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3218E2171BB5F30004DF9E /* view2controller.m */; };
 		BD3ACF77171B245800874915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3ACF76171B245800874915 /* UIKit.framework */; };
 		BD3ACF79171B245800874915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3ACF78171B245800874915 /* Foundation.framework */; };
 		BD3ACF7B171B245800874915 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3ACF7A171B245800874915 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F3218E1171BB5F30004DF9E /* view2controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view2controller.h; sourceTree = "<group>"; };
+		5F3218E2171BB5F30004DF9E /* view2controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view2controller.m; sourceTree = "<group>"; };
 		BD3ACF72171B245800874915 /* repotest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = repotest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3ACF76171B245800874915 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BD3ACF78171B245800874915 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				BD3ACF91171B245800874915 /* ViewController.h */,
 				BD3ACF92171B245800874915 /* ViewController.m */,
 				BD3ACF7D171B245800874915 /* Supporting Files */,
+				5F3218E1171BB5F30004DF9E /* view2controller.h */,
+				5F3218E2171BB5F30004DF9E /* view2controller.m */,
 			);
 			path = repotest;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				BD3ACF83171B245800874915 /* main.m in Sources */,
 				BD3ACF87171B245800874915 /* AppDelegate.m in Sources */,
 				BD3ACF93171B245800874915 /* ViewController.m in Sources */,
+				5F3218E3171BB5F30004DF9E /* view2controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				BD3ACF98171B245800874915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
